@@ -1,0 +1,33 @@
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+tasks/
+# Logs
+npm-debug.*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Expo Native prebuilds (Managed workflow)
+# Si en el futuro modificas código nativo directamente, puedes quitar /ios y /android
+/ios
+/android
+
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*.keystore
+
+Thumbs.db
+expo-env.d.ts
